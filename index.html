@@ -1,0 +1,468 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>HomePage</title>
+</head>
+
+<body>
+    <!-- start of header  -->
+    <header id="header">
+        <div class="nav-wrapper">
+            <nav>
+                <img src="./images/logo.svg" alt="Company Logo" class="company-logo">
+
+                <!-- search bar for mobile and tablet  -->
+                <div class="mobile-search-bar">
+                    <input type="text" name="searchText" id="searchText" placeholder="Search..." autocomplete="off" />
+                    <img src="./images/icon-search-grey.svg" alt="Search Icon" class="search-icon-mobile">
+                </div>
+
+                <img src="./images/icon-hamburger.svg" alt="Hamburger Iocn" class="hamburger-icon">
+
+                <div class="nav-overlay z-10">
+                    <ul class="nav-bar-list">
+                        <img src="./images/icon-menu-close.svg" alt="Menu close Iocn" class="menu-close-icon">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Case Studies</a></li>
+                        <li class="dropdown">
+                            <span class="dropdown-btn">Resources</span>
+
+                            <ul class="dropdown-menu hide">
+                                <li class="dropdown-menu-item">
+                                    <ul>
+                                        <li><img src="./images/icon-book.svg" alt="Book Icon"></li>
+                                        <li class="dropdown-menu-item-content">
+                                            <span>Blog</span>
+                                            <p>The latest industry news, updates and info.</p>
+                                        </li>
+                                    </ul>
+                                </li>
+
+                                <li class="dropdown-menu-item">
+                                    <ul>
+                                        <li><img src="./images/icon-zap.svg" alt="Zap Icon"></li>
+                                        <li class="dropdown-menu-item-content">
+                                            <span>Customer stories</span>
+                                            <p>Learn how our customers are making big changes.</p>
+                                        </li>
+                                    </ul>
+                                </li>
+
+                                <li class="dropdown-menu-item">
+                                    <ul>
+                                        <li><img src="./images/icon-play.svg" alt="Video Icon"></li>
+                                        <li class="dropdown-menu-item-content">
+                                            <span>Video Tutorials</span>
+                                            <p>Get up and running on new features and techniques.</p>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+
+                </div>
+
+                <img src="./images/icon-search.svg" alt="Search Icon" class="search-icon-desktop">
+            </nav>
+        </div>
+
+
+        <div class="hero-section">
+            <div class="content">
+                <h1>Beautiful analytics to grow smarter</h1>
+
+                <p>Powerful, self-serve product and growth analytics to help you convert, engage, and retain more
+                    users.
+                    Trusted by over 4,000 startups.
+                </p>
+
+                <a href="#" class="why-catalog-btn">Why Catalog?</a>
+            </div>
+        </div>
+
+        <!-- search bar for laptop and desktop  -->
+        <div class="overlay-container hide">
+            <div class="search-bar-box">
+                <div class="search-bar">
+                    <img src="./images/icon-search-grey.svg" alt="Search Icon" class="search-icon">
+                    <input type="text" name="searchText" id="searchText" placeholder="Search" autocomplete="off" />
+                </div>
+
+                <div class="overlay-close-btn">
+                    <img src="./images/icon-close.svg" alt="Close Icon">
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- end of header  -->
+
+    <!-- start of main  -->
+    <main>
+        <!-- start of campaigns section  -->
+        <div class="features-wrapper">
+            <section class="campaigns-section">
+                <div class="top">
+                    <h3 class="section-title">Campaigns</h3>
+                    <p class="section-info">We aim to stop public funds siphoning off and we have a plan that will help.
+                        We are
+                        working
+                        at the national and EU levels to advance.</p>
+                </div>
+
+                <div class="bottom">
+                    <div class="campaigns-cards">
+                        <!-- start of open data directive campaign card  -->
+                        <div class="campaigns-card">
+                            <div class="campaigns-card-top">
+                                <img src="./images/image-open-data-directive.jpg" alt="Open data directive image">
+                            </div>
+
+                            <div class="campaigns-card-bottom">
+                                <h5>Open Data Directive</h5>
+                                <p>In view of Russia’s military action against the Ukrainian people, being
+                                    concerned
+                                    about ensuring that European funds In view of Russia’s military action
+                                    against
+                                    the Ukrainian people, </p>
+
+                                <a href="#" class="more-btn">Learn more</a>
+                            </div>
+                        </div>
+                        <!-- end of open data directive campaign card  -->
+
+                        <!-- start of beneficial ownership campaign card  -->
+                        <div class="campaigns-card">
+                            <div class="campaigns-card-top">
+                                <img src="./images/image-beneficial-ownership.jpg" alt="Beneficial Ownership image">
+                            </div>
+
+                            <div class="campaigns-card-bottom">
+                                <h5>Beneficial Ownership</h5>
+                                <p>In view of Russia’s military action against the Ukrainian people, being
+                                    concerned
+                                    about ensuring that European funds In view of Russia’s military action
+                                    against
+                                    the Ukrainian people, </p>
+
+                                <a href="#" class="more-btn">Learn more</a>
+                            </div>
+                        </div>
+                        <!-- end of beneficial ownership campaign card  -->
+
+                        <!-- start of EU recovery transparency campaign card  -->
+                        <div class="campaigns-card">
+                            <div class="campaigns-card-top">
+                                <img src="./images/image-eu-recovery-transparency.jpg"
+                                    alt="EU recovery transparency image">
+                            </div>
+
+                            <div class="campaigns-card-bottom">
+                                <h5>EU recovery transparency</h5>
+                                <p>In view of Russia’s military action against the Ukrainian people, being
+                                    concerned
+                                    about ensuring that European funds In view of Russia’s military action
+                                    against
+                                    the Ukrainian people, </p>
+
+                                <a href="#" class="more-btn">Learn more</a>
+                            </div>
+                        </div>
+                        <!-- end of EU recovery transparency campaign card  -->
+                    </div>
+                </div>
+            </section>
+        </div>
+        <!-- end of campaigns section  -->
+
+        <!-- start of who we are section  -->
+        <div class="features-wrapper">
+            <section class="who-we-are-section">
+                <div class="left">
+                    <div class="content">
+                        <h3 class="section-title">Who we are</h3>
+                        <p class="section-info">We are a collaboration of Non Govt. and professionals working to ensure
+                            that government
+                            spending is done fairly, openly, efficiently, and creates the best value for money and
+                            best
+                            outcomes for Europe. We are working at the national and EU levels to advance the
+                            principles
+                            of openness in spending of funds, procurement, and company ownership within the EU.</p>
+                    </div>
+
+                    <a href="#" class="more-btn">See more</a>
+                </div>
+
+                <div class="right">
+                    <div class="image-gallery">
+                        <div class="col">
+                            <!-- start of Adriana Homolova Image card  -->
+                            <div class="image-card">
+                                <div class="profile-image-box">
+                                    <img src="./images/profile-pic-adriana-homolova.jpg" alt="Adriana Homolova Image">
+                                </div>
+                                <span>Adriana Homolova</span>
+                            </div>
+
+                            <!-- start of Karolis Granickas Image card  -->
+                            <div class="image-card">
+                                <div class="profile-image-box">
+                                    <img src="./images/profile-pic-karolis-granickas.jpg" alt="Karolis Granickas Image">
+                                </div>
+                                <span>Karolis Granickas</span>
+                            </div>
+                        </div>
+
+                        <div class="col">
+                            <!-- start of Sandor Lederer Image card  -->
+                            <div class="image-card">
+                                <div class="profile-image-box">
+                                    <img src="./images/profile-pic-sandor-lederer.jpg" alt="Sandor Lederer Image">
+                                    <!-- <div class="im-box"></div> -->
+                                </div>
+                                <span>Sandor Lederer</span>
+                            </div>
+
+                            <!-- start of Zara Montgomery Image card  -->
+                            <div class="image-card">
+                                <div class="profile-image-box">
+                                    <img src="./images/profile-pic-zara-montgomery.jpg" alt="Zara Montgomery Image">
+                                </div>
+                                <span>Zara Montgomery</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <!-- end of who we are section  -->
+
+        <!-- start of company logos section  -->
+        <div class="wrapper">
+            <section class="company-logos-section">
+                <img src="./images/icon-previous.svg" alt="Previous Icon" id="prevBtn">
+
+                <div class="logo-slides-container">
+                    <img class="logo-slide" src="./images/logo-layers.svg" alt="Layers Logo">
+                    <img class="logo-slide" src="./images/logo-quotient.svg" alt="Quotient Logo">
+                    <img class="logo-slide" src="./images/logo-sisyphus.svg" alt="Sisyphus Logo">
+                    <img class="logo-slide" src="./images/logo-hourglass.svg" alt="Hourglass Logo">
+                    <img class="logo-slide" src="./images/logo-circooles.svg" alt="Circooles Logo">
+                </div>
+
+                <img src="./images/icon-next.svg" alt="Next Icon" id="nextBtn">
+            </section>
+        </div>
+        <!-- end of company logos section  -->
+
+        <!-- start of news section  -->
+        <div class="wrapper">
+            <section class="news-section">
+                <h3 class="section-title">News</h3>
+                <p class="section-info">We aim to stop public funds siphoning off and we have a plan that will help. We
+                    are working at the
+                    national and EU levels to advance.</p>
+
+                <div class="news-container"></div>
+
+                <div class="btn view-all-news-btn">
+                    <span>View all news</span>
+                </div>
+
+                <div class="btn hide-news-btn hide">
+                    <span>Hide news</span>
+                </div>
+            </section>
+        </div>
+        <!-- end of news section  -->
+
+        <!-- start of latest resources section  -->
+        <div class="wrapper">
+            <section class="latest-resources-section">
+                <h3 class="section-title">Latest Resources</h3>
+
+                <p class="section-info">The latest resources includes Transparency Toolkit, Evidence, Best Practices</p>
+
+                <div class="latest-resources-cards">
+                    <div class="latest-resources-card">
+                        <div class="logo-container">
+                            <div class="logo-box">
+                                <img src="./images/icon-repair-tool.svg" alt="Repair Tool Icon">
+                            </div>
+                            <span>Tool</span>
+                        </div>
+
+                        <span>Defence Elvis</span>
+
+                        <p>It allows creating networks of public spending on goods services used in defense in 28 EU
+                            countries...</p>
+
+                        <a href="#" class="more-btn">Learn more</a>
+                    </div>
+
+                    <div class="latest-resources-card">
+                        <div class="logo-container">
+                            <div class="logo-box">
+                                <img src="./images/icon-document.svg" alt="Document Icon">
+                            </div>
+                            <span></span>
+                        </div>
+
+                        <span></span>
+
+                        <p>It allows creating networks of public spending on goods services used in defense in 28 EU
+                            countries...</p>
+
+                        <a href="#" class="more-btn">Learn more</a>
+                    </div>
+
+                    <div class="latest-resources-card">
+                        <div class="logo-container">
+                            <div class="logo-box">
+                                <img src="./images/icon-check.svg" alt="Check Icon">
+                            </div>
+                            <span></span>
+                        </div>
+
+                        <span></span>
+
+                        <p>It allows creating networks of public spending on goods services used in defense in 28 EU
+                            countries...</p>
+
+                        <a href="#" class="more-btn">Learn more</a>
+                    </div>
+                </div>
+
+                <div class="btn">
+                    <span>View all resources</span>
+                </div>
+            </section>
+        </div>
+        <!-- end of latest resources section  -->
+
+        <!-- start of contact section  -->
+        <div class="wrapper">
+            <section class="contact-section">
+                <h3 class="section-title">Contact Us</h3>
+
+                <p class="section-info">If you have any further inquires, please let us know by filling the form below
+                </p>
+
+                <form action="#" id="form1" onsubmit="submitHandler(event)">
+                    <!-- first name and last name input field goes here  -->
+                    <div class="full-name-input-box">
+                        <div class="input-box">
+                            <label for="firstName">First name</label>
+                            <input type="text" name="firstName" id="firstName" autocomplete="off" />
+                        </div>
+                        <div class="input-box">
+                            <label for="lastName">Last name</label>
+                            <input type="text" name="lastName" id="lastName" autocomplete="off" />
+                        </div>
+                    </div>
+
+                    <!-- email input field goes here  -->
+                    <div class="input-box">
+                        <label for="email">Email</label>
+                        <input type="email" name="email" id="email" autocomplete="off" />
+                    </div>
+
+                    <!-- message input field goes here  -->
+                    <div class="input-box">
+                        <label for="message">Message</label>
+                        <textarea name="message" id="message"></textarea>
+                    </div>
+
+                    <button id="submitBtn" type="submit" class="btn submit-btn">Submit</button>
+                </form>
+            </section>
+        </div>
+        <!-- end of contact section  -->
+    </main>
+    <!-- end of main  -->
+
+    <!-- start of footer  -->
+    <footer>
+        <div class="footer-top">
+            <div class="footer-top-container">
+                <div class="left">
+                    <img src="./images/logo.svg" alt="Company Logo">
+
+                    <p class="footer-description">We are a collaboration of non-government organisation and
+                        professionals working to ensure
+                        that
+                        government spending.</p>
+
+                    <div class="social-media-container">
+                        <!-- twitter icon goes here  -->
+                        <div class="social-media-logo-box">
+                            <img src="./images/icon-twitter.svg" alt="Twitter Icon">
+                        </div>
+
+                        <!-- linkedIn icon goes here  -->
+                        <div class="social-media-logo-box">
+                            <img src="./images/icon-linkedin.svg" alt="LinkedIn Icon">
+                        </div>
+
+                        <!-- youtube icon goes here  -->
+                        <div class="social-media-logo-box">
+                            <img src="./images/icon-youtube.svg" alt="Youtube Icon">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="right">
+                    <div class="links-container">
+                        <div class="links">
+                            <span>Links</span>
+                            <ul>
+                                <li><a href="#">Campaigns</a></li>
+                                <li><a href="#">Resources</a></li>
+                                <li><a href="#">News</a></li>
+                                <li><a href="#">About Us</a></li>
+                            </ul>
+                        </div>
+
+                        <div class="links">
+                            <span>Resources</span>
+                            <ul>
+                                <li><a href="#">Transparency Toolkit</a></li>
+                                <li><a href="#">Evidence</a></li>
+                                <li><a href="#">Best Practices</a></li>
+                            </ul>
+                        </div>
+
+                        <div class="links">
+                            <span>Work with Us</span>
+                            <ul>
+                                <li><a href="#">Contact Us</a></li>
+                                <li><a href="#">Join Us</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <div class="footer-bottom-container">
+                <span class="terms-conditions">Terms and Conditions</span>
+                <img src="./images/icon-copyright.svg" alt="Copyright Icon">
+            </div>
+
+            <a href="#header" class="scroll-to-top-btn">
+                <img src="./images/icon-arrow-up.svg" alt="Up Arrow Icon">
+            </a>
+        </div>
+    </footer>
+    <!-- end of footer  -->
+
+    <script src="script.js"></script>
+</body>
+
+</html>
