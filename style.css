@@ -46,9 +46,10 @@ textarea {
 header {
     background: linear-gradient(180deg, rgba(0, 41, 83, 0.8) 0%, rgba(0, 45, 91, 0.8) 100%), url('./images/image-hero.jpg') no-repeat center;
     background-size: cover;
-    height: 100svh;
+    min-height: 100svh;
     width: 100%;
     position: relative;
+    padding-bottom: 232px;
 }
 
 .nav-wrapper {
@@ -59,8 +60,8 @@ header {
 nav {
     display: flex;
     align-items: center;
-    gap: 10px;
-    margin-inline: auto;
+    gap: 14px;
+    /* margin-inline: auto; */
     padding-inline: 8px;
     max-width: 1280px;
 }
@@ -85,10 +86,11 @@ nav .nav-overlay {
     height: 100svh;
     transform: translateX(110%);
     width: 60%;
+    max-width: 250px;
 }
 
 .slide-in-animation {
-    animation: slideIn 1s ease-in-out forwards;
+    animation: slideIn 0.75s ease-in-out forwards;
 }
 
 @keyframes slideIn {
@@ -105,7 +107,7 @@ nav .nav-overlay {
 }
 
 .slide-out-animation {
-    animation: slideOut 1s ease-in-out forwards;
+    animation: slideOut 0.5s ease-in-out forwards;
 }
 
 @keyframes slideOut {
@@ -211,7 +213,7 @@ nav .nav-bar-list>li> :is(a, span) {
     outline: none;
     border: none;
     border-radius: 8px;
-    padding: 6px;
+    padding: 10px 8px;
     width: 100%;
 }
 
@@ -221,7 +223,7 @@ nav .nav-bar-list>li> :is(a, span) {
 
 .hero-section {
     padding-inline: 20px;
-    transform: translateY(58%);
+    margin-top: 152px;
 }
 
 .hero-section .content {
@@ -886,8 +888,8 @@ h1 {
     width: 48px;
     position: absolute;
     top: 0;
-    transform: translateY(-125%);
-    right: 0;
+    transform: translateY(-115%);
+    right: 4px;
 }
 
 
@@ -940,8 +942,6 @@ h1 {
         width: fit-content;
     }
 
-    /* news section  */
-
     /* latest resources section  */
     .latest-resources-section {
         padding-inline: 20px;
@@ -959,9 +959,6 @@ h1 {
     .input-box :is(input, textarea) {
         font-size: 14px;
     }
-
-    /* footer  */
-
 }
 
 @media screen and (min-width:481px) {
@@ -1067,11 +1064,12 @@ h1 {
         position: static;
         background-color: transparent;
         box-shadow: none;
-        width: fit-content;
         height: auto;
         padding-left: 0;
         padding-top: 0;
         transform: translateX(0) !important;
+        width: fit-content;
+        max-width: max-content;
     }
 
     nav .nav-bar-list {
